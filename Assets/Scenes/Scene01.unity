@@ -1001,6 +1001,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb66fac0e10c5444283bb2519d8478e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bowling
+  rb: {fileID: 0}
+  forcePower: 70
 --- !u!135 &1045465160
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1088,7 +1090,7 @@ Transform:
   m_GameObject: {fileID: 1045465157}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: -12}
+  m_LocalPosition: {x: 0, y: 1.5, z: -11.63}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
