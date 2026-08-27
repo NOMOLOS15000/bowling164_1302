@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class Bowling : MonoBehaviour
@@ -9,8 +10,11 @@ public class Bowling : MonoBehaviour
 
     [SerializeField]
     private int forcePower;
-    
-    
+
+    public int point;
+    [SerializeField]
+    private TMP_Text Notitext;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,6 +34,8 @@ public class Bowling : MonoBehaviour
         if (Keyboard.current.rightArrowKey.isPressed
             || Keyboard.current.dKey.isPressed)
             MoveRight();
+        Notitext.text = $"Score : {point}";
+
     }
 
     public void ShootBall()

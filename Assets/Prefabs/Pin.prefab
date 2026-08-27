@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8252707471255811372}
   - component: {fileID: 6384968745610582776}
   - component: {fileID: 4956089651454483077}
+  - component: {fileID: 3955665622838043515}
   m_Layer: 0
   m_Name: Pin
   m_TagString: Untagged
@@ -142,3 +143,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3955665622838043515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771011508480480589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa447016c36f8f488cd9e7be94e191e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pin
+  point: 1
+  hasFallen: 0
+  bowling: {fileID: 0}
